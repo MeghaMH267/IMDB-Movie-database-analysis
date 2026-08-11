@@ -1,33 +1,69 @@
-# IMDb Movies SQL Analysis
+# IMDb Movie Database Analysis
 
 ## Project Overview
 
-This project analyzes IMDb movie data using SQL to explore movie ratings, budgets, revenue, genres, directors, and other key movie-related metrics.
+This project analyzes IMDb movie and director data using SQL to generate meaningful insights about movies, ratings, revenue, budgets, popularity, and director performance.
+
+The analysis is performed using SQL queries on IMDb movie and director datasets.
 
 ## Objective
 
-* Analyze movie performance using SQL
-* Identify high-rated and high-budget movies
-* Compare movies based on revenue and budget
-* Analyze directors and their movie performance
-* Extract meaningful insights from the dataset
+The main objectives of this project are to:
+
+- Analyze movie-related data using SQL
+- Explore movie ratings and popularity
+- Analyze movie revenue and budgets
+- Evaluate director performance
+- Identify useful patterns and insights from the datasets
+
+## Datasets
+
+The project uses two datasets:
+
+### IMDb Movies Dataset
+Contains movie-related information used for analysis.
+
+### Directors Dataset
+Contains director-related information used to analyze director performance and movie-related trends.
 
 ## Tools & Technologies
 
-* **MySQL**
-* **SQL**
-* **IMDb Movie Dataset**
+- SQL
+- MySQL
+- MySQL Workbench
+- CSV Datasets
 
-## Key Analysis
+## SQL Analysis
 
-The project includes SQL queries for:
+The project uses SQL concepts including:
 
-* Highest-budget movies
-* Highest-rated movies
-* Director-wise movie analysis
-* Movie revenue analysis
-* Genre-based analysis
-* Aggregate and ranking analysis
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+- JOIN
+- Subqueries
+- Filtering
+- Sorting
+- Data Aggregation
+
+## Project Workflow
+
+```text
+IMDb Movies Dataset
+        +
+Directors Dataset
+        ↓
+Data Exploration
+        ↓
+SQL Queries
+        ↓
+Data Analysis
+        ↓
+Movie & Director Insights
+        ↓
+Results & Outputs
 * Filtering and sorting movie records
 * Subqueries and joins
 
